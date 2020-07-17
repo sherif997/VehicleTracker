@@ -1,0 +1,176 @@
+<resources>
+    <string name="app_name">RETRIEVE</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">Time and display</string>
+    <string name="pref_header_generalsummary">Display settings and control what makers display on press</string>
+
+    <string name="pref_header_about">About</string>
+    <string name="aboutTitle">INTRODUCTION</string>
+    <string name="pref_header_aboutsummary">Information and basic instructions</string>
+
+    <string name="pref_header_instructions">Instructions</string>
+    <string name="pref_header_instructionSummary">Instructions on using all of RETRIEVE\'s features</string>
+
+    <string name="pref_title_marker_settings">What to display on marker press</string>
+    <string name="pref_description_display_preferences">Tail
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">SMS rate &amp; auto-refresh</string>
+
+    <string name="pref_title_sync_frequency">SMS frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>30 seconds</item>
+        <item>1 minute</item>
+        <item>2 minutes</item>
+        <item>4 minutes</item>
+        <item>10 minutes</item>
+        <item>Stop</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>240</item>
+        <item>600</item>
+        <item>stop</item>
+    </string-array>
+
+    <string name="pref_refresh_title">Autorefresh rate</string>
+    <string-array name="pref_refresh_entries">
+        <item>1 minute</item>
+        <item>5 minutes</item>
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>Manual</item>
+    </string-array>
+
+    <string-array name="pref_refresh_values">
+        <item>60000</item>
+        <item>300000</item>
+        <item>900000</item>
+        <item>1800000</item>
+        <item>0</item>
+    </string-array>
+
+    <string name="pref_general_title">Information display on vehicle marker</string>
+    <string-array name="pref_general_entries">
+        <item>Distance (km)</item>
+        <item>Distance (miles)</item>
+        <item>Time</item>
+    </string-array>
+
+    <string-array name="pref_general_values">
+        <item>km</item>
+        <item>miles</item>
+        <item>time</item>
+    </string-array>
+
+    <string-array name="pref_time_entries">
+        <item>12 hr</item>
+        <item>24 hr</item>
+    </string-array>
+    <string-array name="pref_time_values">
+        <item>12</item>
+        <item>24</item>
+    </string-array>
+
+    <string-array name="pref_date_entries">
+        <item>Monday,January 01 2018</item>
+        <item>January 01 2018</item>
+        <item>01.01.2018</item>
+    </string-array>
+    <string-array name="pref_date_values">
+        <item>longhand</item>
+        <item>noWeekday</item>
+        <item>shorthand</item>
+    </string-array>
+
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="notification_frequencies">
+        <item>1 minute</item>
+        <item>2 minutes</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>No notifications</item>
+    </string-array>
+
+    <string-array name="notification_frequency_values">
+        <item>60</item>
+        <item>120</item>
+        <item>300</item>
+        <item>600</item>
+        <item>none</item>
+    </string-array>
+
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="pref_header_General">General</string>
+
+    <string name="instruction_mainscreen">Main screen:
+        \n
+        \n This is the first screen that appears once you\'ve authenticated your phone number, this screen displays your location as well as the location of the vehicle.
+        \n
+        \n --- The \'Menu\' button should redirect you to the menu screen.
+        \n
+        \n --- The \'History\' button should take you to a screen displayig previous locating information based on SMS messages
+        \n
+        \n --- The refresh button allows for users to refresh the display manually, this is the button with the blu circular arrow
+        \n________________________________________
+        \n
+        \n Menu screen:
+        \n
+        \n Within this section there are several options to choose from:
+        \n
+        \n--- About: Information regarding this application and the purpose of this application
+        \n
+        \n--- General: This options allows users to adjust display information and how they wish for information to be conveyed
+        \n
+        \n--- Data &amp; Sync: This allows users to tailor the SMS and refresh rate of the main screen.
+        \n
+        \n________________________________________
+        \n
+        \n  History screen:
+        \n
+        \n This aims to analyse the user\'s SMS messages and display all previous locations of the vehicle
+        \n
+        \n To get all location beyond a certain date, the user should enter the date in the form: DD.MM.YYYY
+        \n
+        \n If the user wishes to return the history screen to its original state, the refresh button should be pressed.
+        \n
+        \n
+
+    </string>
+</resources>

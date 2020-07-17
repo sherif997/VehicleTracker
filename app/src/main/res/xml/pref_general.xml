@@ -1,0 +1,40 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+
+    <!-- NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it. -->
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+
+    <ListPreference
+        android:title="Vehicle marker information settings"
+        android:summary="Decide what information appears when marker is pressed"
+        android:entries="@array/pref_general_entries"
+        android:entryValues="@array/pref_general_values"
+        android:key="marker_information"
+        />
+
+    <ListPreference
+        android:title="Time"
+        android:key="time_config"
+        android:summary="Control display of time throughout application"
+        android:defaultValue="24"
+        android:entries="@array/pref_time_entries"
+        android:entryValues="@array/pref_time_values"
+        />
+
+    <ListPreference
+        android:title="Date"
+        android:key="date_config"
+        android:summary="Control date format"
+        android:defaultValue="shorthand"
+        android:entries="@array/pref_date_entries"
+        android:entryValues="@array/pref_date_values"
+        />
+
+
+
+
+
+</PreferenceScreen>

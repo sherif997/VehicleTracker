@@ -1,0 +1,42 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- These settings headers are only used on tablets. -->
+
+
+    <header
+        android:fragment="com.example.sherif.testproject1.SettingsActivity$AboutFragment"
+        android:icon="@drawable/ic_info_black_24dp"
+        android:summary="@string/pref_header_aboutsummary"
+        android:title="@string/pref_header_about" />
+
+    <header
+        android:fragment="com.example.sherif.testproject1.SettingsActivity$InstructionPreferenceFragment"
+        android:icon="@drawable/manualicon"
+        android:summary="@string/pref_header_instructionSummary"
+        android:title="@string/pref_header_instructions" />
+
+
+    <header
+        android:fragment="com.example.sherif.testproject1.SettingsActivity$GeneralPreferenceFragment"
+        android:icon="@drawable/settings"
+        android:title="@string/pref_header_general"
+        android:summary="@string/pref_header_generalsummary"
+        />
+
+
+    <header
+        android:fragment="com.example.sherif.testproject1.SettingsActivity$DataSyncPreferenceFragment"
+        android:icon="@drawable/ic_sync_black_24dp"
+        android:title="@string/pref_header_data_sync"
+        android:summary="Control SMS messages and refresh rate"/>
+
+    <header
+        android:fragment="com.example.sherif.testproject1.SettingsActivity$NotificationPreferenceFragment"
+        android:icon="@drawable/notification"
+        android:title="Notification settings"
+        android:summary="Tailor notification to suit your preferences"/>
+
+
+
+
+</preference-headers>

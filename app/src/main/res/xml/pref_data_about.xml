@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:title="INTRODUCTION"
+        android:layout="@layout/aboutlayout"
+        android:summary="'RETRIEVE!' aims to track and locate any lost vehicle
+belonging to the user. This works by communicating with a remote GPS/GPRS module combined with a GSM module to locate the vehicle and send this date via SMS"
+        android:subtitle="INSTRUCTIONS"
+        />
+</PreferenceScreen>
